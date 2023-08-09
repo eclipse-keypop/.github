@@ -5,19 +5,79 @@ This is the GitHub organization containing all repositories of the Eclipse Keypo
 
 # Keypop component repositories for Java and C++ implementations
 
-|Keypop Component name|Java implementation repository|C++ implementation repository|Calypso Networks Association’s interface specification|
-|--|--|--|--|
-|Reader API|[keypop-reader-java-api](https://github.com/eclipse-keypop/keypop-reader-java-api)|[keypop-reader-cpp-api](https://github.com/eclipse-keypop/keypop-reader-cpp-api)|[calypsonet-terminal-reader-uml-api](https://calypsonet.github.io/calypsonet-terminal-reader-uml-api/)|
-|Card API|[keypop-card-java-api](https://github.com/eclipse-keypop/keypop-card-java-api)|[keypop-card-cpp-api](https://github.com/eclipse-keypop/keypop-card-cpp-api)|[calypsonet-terminal-card-uml-api](https://calypsonet.github.io/calypsonet-terminal-card-uml-api/)|
-|Calypso Card API|[keypop-calypso-card-java-api](https://github.com/eclipse-keypop/keypop-calypso-card-java-api)|[keypop-calypso-card-cpp-api](https://github.com/eclipse-keypop/keypop-calypso-card-cpp-api)|[calypsonet-terminal-calypso-card-uml-api](https://calypsonet.github.io/calypsonet-terminal-calypso-uml-api/)|
-|Calypso Symmetric Crypto API|[keypop-calypso-crypto-symmetric-java-api](https://github.com/eclipse-keypop/keypop-calypso-crypto-symmetric-java-api)|[keypop-calypso-crypto-symmetric-cpp-api](https://github.com/eclipse-keypop/keypop-calypso-crypto-symmetric-cpp-api)|[calypsonet-terminal-calypso-crypto-symmetric-uml-api](https://github.com/calypsonet/calypsonet-terminal-calypso-crypto-symmetric-uml-api)|
-|Calypso Legacy SAM Crypto API|[keypop-calypso-crypto-legacysam-java-api](https://github.com/eclipse-keypop/keypop-calypso-crypto-legacysam-java-api)|[keypop-calypso-crypto-legacysam-cpp-api](https://github.com/eclipse-keypop/keypop-calypso-crypto-legacysam-cpp-api)|[calypsonet-terminal-calypso-crypto-legacysam-uml-api](https://calypsonet.github.io/calypsonet-terminal-calypso-crypto-legacysam-uml-api/)|
-|Calypso Asymmetric Crypto API|[keypop-calypso-crypto-asymmetric-java-api](https://github.com/eclipse-keypop/keypop-calypso-crypto-asymmetric-java-api)|[keypop-calypso-crypto-asymmetric-cpp-api](https://github.com/eclipse-keypop/keypop-calypso-crypto-asymmetric-cpp-api)|[calypsonet-terminal-calypso-crypto-asymmetric-uml-api](https://github.com/calypsonet/calypsonet-terminal-calypso-crypto-asymmetric-uml-api)|
+<table>
+	<tbody>
+		<tr>
+			<th scope="col" rowspan="2">Ticketing terminal layer</th>
+			<th scope="col" colspan="3">Keypop project</th>
+			<th scope="col" rowspan="2">external interface definition by the Calypso Networks Association</th>
+		</tr>
+		<tr>
+			<th scope="col">Component name</th>
+			<th scope="col">Java implementation repository</th>
+			<th scope="col">C++ implementation repository</th>
+		</tr>
+		<tr>
+			<td rowspan="2">Reader Layer</td>
+			<td>Reader API</td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-reader-java-api">keypop-reader-java-api</a></td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-reader-cpp-api">keypop-reader-cpp-api</a></td>
+			<td><a href="https://calypsonet.github.io/calypsonet-terminal-reader-uml-api/">calypsonet-terminal-reader-uml-api</a></td>
+		</tr>
+		<tr>
+			<td>Card API</td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-card-java-api">keypop-card-java-api</a></td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-card-cpp-api">keypop-card-cpp-api</a></td>
+			<td><a href="https://calypsonet.github.io/calypsonet-terminal-card-uml-api/">calypsonet-terminal-card-uml-api</a></td>
+		</tr>
+		<tr>
+			<td rowspan="4">Calypso Layer</td>
+			<td>Calypso Card API</td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-card-java-api">keypop-calypso-card-java-api</a></td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-card-cpp-api">keypop-calypso-card-cpp-api</a></td>
+			<td><a href="https://calypsonet.github.io/calypsonet-terminal-calypso-uml-api/">calypsonet-terminal-calypso-card-uml-api</a></td>
+		</tr>
+		<tr>
+			<td>Calypso Symmetric Crypto API</td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-symmetric-java-api">keypop-calypso-crypto-symmetric-java-api</a></td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-symmetric-java-api">keypop-calypso-crypto-symmetric-cpp-api</a></td>
+			<td><a href="https://github.com/calypsonet/calypsonet-terminal-calypso-crypto-symmetric-uml-api">calypsonet-terminal-calypso-crypto-symmetric-uml-api</a></td>
+		</tr>
+		<tr>
+			<td>Calypso Legacy SAM Crypto API</td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-legacysam-java-api">keypop-calypso-crypto-legacysam-java-api</a></td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-legacysam-cpp-api">keypop-calypso-crypto-legacysam-cpp-api</a></td>
+			<td><a href="https://calypsonet.github.io/calypsonet-terminal-calypso-crypto-legacysam-uml-api/">calypsonet-terminal-calypso-crypto-legacysam-uml-api</a></td>
+		</tr>
+		<tr>
+			<td>Calypso Asymmetric Crypto API</td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-asymmetric-java-api">keypop-calypso-crypto-asymmetric-java-api</a></td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-asymmetric-cpp-api">keypop-calypso-crypto-asymmetric-cpp-api</a></td>
+			<td><a href="https://github.com/calypsonet/calypsonet-terminal-calypso-crypto-asymmetric-uml-api">calypsonet-terminal-calypso-crypto-asymmetric-uml-api</a></td>
+		</tr>
+	</tbody>
+</table>
 
 # Keypop project support repositories
 
-|Support type|Repository|
-|--|--|
-|Keypop website|[keypop-website](https://github.com/eclipse-keypop/keypop-website)|
-|Eclipse-specific configuration of repositories|[.eclipsefdn](https://github.com/eclipse-keypop/.eclipsefdn)|
-|GitHub-specific configuration of repositories|[.github](https://github.com/eclipse-keypop/.github)|
+<table>
+	<tbody>
+		<tr>
+			<th scope="col" colspan="2">Support type</th>
+			<th scope="col">Repository</th>
+		</tr>
+		<tr>
+			<td colspan="2">Keypop website</td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-website">keypop-website</a></td>
+		</tr>
+		<tr>
+			<td rowspan="2">Repository configuration</td>
+			<td>Eclipse-specific</td>
+			<td><a href="https://github.com/eclipse-keypop/.eclipsefdn">.eclipsefdn</a></td>
+		</tr>
+		<tr>
+			<td>GitHub-specific</td>
+			<td><a href="https://github.com/eclipse-keypop/.github">.github</a></td>
+		</tr>
+	</tbody>
+</table>
