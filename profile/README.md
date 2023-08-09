@@ -67,7 +67,7 @@ This is the GitHub organization containing all repositories of the Eclipse Keypo
 			<th scope="col">Repository</th>
 		</tr>
 		<tr>
-			<td colspan="2">Keypop website</td>
+			<td colspan="2">Keypop website https://keypop.org/</td>
 			<td><a href="https://github.com/eclipse-keypop/keypop-website">keypop-website</a></td>
 		</tr>
 		<tr>
