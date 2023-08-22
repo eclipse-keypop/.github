@@ -40,7 +40,7 @@ This is the GitHub organization containing all repositories of the Eclipse Keypo
 		<tr>
 			<td>Calypso Symmetric Crypto API</td>
 			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-symmetric-java-api">keypop-calypso-crypto-symmetric-java-api</a></td>
-			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-symmetric-java-api">keypop-calypso-crypto-symmetric-cpp-api</a></td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-symmetric-cpp-api">keypop-calypso-crypto-symmetric-cpp-api</a></td>
 			<td><a href="https://github.com/calypsonet/calypsonet-terminal-calypso-crypto-symmetric-uml-api">calypsonet-terminal-calypso-crypto-symmetric-uml-api</a></td>
 		</tr>
 		<tr>
