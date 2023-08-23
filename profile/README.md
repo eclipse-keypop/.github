@@ -71,6 +71,11 @@ This is the GitHub organization containing all repositories of the Eclipse Keypo
 			<td><a href="https://github.com/eclipse-keypop/keypop-website">keypop-website</a></td>
 		</tr>
 		<tr>
+			<td colspan="2">Keypop Continuous Integration settings</td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-ops">keypop-ops</a></td>
+		</tr>
+
+		<tr>
 			<td rowspan="2">Repository configuration</td>
 			<td>Eclipse-specific</td>
 			<td><a href="https://github.com/eclipse-keypop/.eclipsefdn">.eclipsefdn</a></td>
