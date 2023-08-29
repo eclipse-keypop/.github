@@ -1,4 +1,4 @@
-This is the GitHub organization containing all repositories of the Eclipse Keypop project (https://keypop.org/).
+This is the GitHub organization containing all repositories of the Eclipse Keypop project (Web site https://keypop.org/ & Eclipse Project Management Infrastructure https://projects.eclipse.org/projects/iot.keypop).
 
  - Keypop offers Java and C++ transcriptions of the APIs for ticketing terminals defined by the Calypso Networks Association (https://calypsonet.org/).
  - The Eclipse Keyple project (https://keyple.org/) provides Java and C++ libraries implementing the Keypop APIs.
