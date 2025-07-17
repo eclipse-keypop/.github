@@ -1,10 +1,24 @@
+# Eclipse Keypop
+
 This is the GitHub organization containing all repositories of the [Eclipse Keypop project](http://keypop.org/).
 
  - Keypop offers Java and C++ transcriptions of the '[Ticketing Terminal APIs](https://terminal-api.calypsonet.org/)' defined by the [Calypso Networks Association](https://calypsonet.org/).
  - The [Eclipse Keyple project](https://keyple.org/) provides Java and C++ libraries implementing the Keypop APIs.
 
-# Keypop component repositories for Java and C++ implementations
+## Keypop component repositories for Java and C++ implementations
 
+<style>
+    .hachured {
+        background-image: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 5px,
+        rgba(0, 0, 0, 0.1) 5px,
+        rgba(0, 0, 0, 0.1) 10px
+        );
+        color: black;
+    }
+</style>
 <table>
 	<tbody>
 		<tr>
@@ -24,7 +38,7 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 			<th scope="row" rowspan="2">API Doc</th>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-reader-java-api">Java Doc</a></td>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-reader-cpp-api/">C++ Doc</a></td>
-			<td><a href="https://reader-uml.terminal-api.calypsonet.org/">UML Doc</a></td>
+			<td><a href="https://docs.terminal-api.calypsonet.org/calypsonet-terminal-reader-uml-api/">UML Doc</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://terminal-api.calypsonet.org/specifications/reader-layer/reader-api/">Interface Guide</a></td>
@@ -40,7 +54,7 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 			<th scope="row" rowspan="2">API Doc</th>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-card-java-api/">Java Doc</a></td>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-reader-cpp-api/">C++ Doc</a></td>
-			<td><a href="https://card-uml.terminal-api.calypsonet.org/">UML Doc</a></td>
+			<td><a href="https://docs.terminal-api.calypsonet.org/calypsonet-terminal-card-uml-api/">UML Doc</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://terminal-api.calypsonet.org/specifications/reader-layer/card-api/">Interface Guide</a></td>
@@ -52,12 +66,12 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 			<td><a href="https://calypsonet.github.io/calypsonet-terminal-card-uml-api/">calypsonet-terminal-card-uml-api</a></td>
 		</tr>
 		<tr>
-			<td rowspan="15">Calypso Layer</td>
+			<td rowspan="15">Card Layer - Calypso</td>
 			<td rowspan="3">Calypso Card API</td>
 			<th scope="row" rowspan="2">API Doc</th>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-calypso-card-java-api">Java Doc</a></td>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-calypso-card-cpp-api">C++ Doc</a></td>
-			<td><a href="https://calypso-card-uml.terminal-api.calypsonet.org/">UML Doc</a></td>
+			<td><a href="https://docs.terminal-api.calypsonet.org/calypsonet-terminal-calypso-card-uml-api/">UML Doc</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://terminal-api.calypsonet.org/specifications/calypso-layer/calypso-card-api/">Interface Guide</a></td>
@@ -89,7 +103,7 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 			<th scope="row" rowspan="2">API Doc</th>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-calypso-crypto-legacysam-java-api">Java Doc</a></td>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-calypso-crypto-legacysam-cpp-api">C++ Doc</a></td>
-			<td><a href="https://calypso-crypto-symmetric-uml.terminal-api.calypsonet.org/">UML Doc</a></td>
+			<td><a href="https://docs.terminal-api.calypsonet.org/calypsonet-terminal-calypso-crypto-symmetric-uml-api/">UML Doc</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://terminal-api.calypsonet.org/specifications/calypso-layer/calypso-symmetric-crypto-api/">Interface Guide</a></td>
@@ -105,7 +119,7 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 			<th scope="row" rowspan="2">API Doc</th>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-calypso-crypto-legacysam-java-api">Java Doc</a></td>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-calypso-crypto-legacysam-cpp-api">C++ Doc</a></td>
-			<td><a href="https://calypso-crypto-legacysam-uml.terminal-api.calypsonet.org/">UML Doc</a></td>
+			<td><a href="https://docs.terminal-api.calypsonet.org/calypsonet-terminal-calypso-crypto-legacysam-uml-api/">UML Doc</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://terminal-api.calypsonet.org/specifications/calypso-layer/calypso-legacysam-api/">Interface Guide</a></td>
@@ -121,7 +135,7 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 			<th scope="row" rowspan="2">API Doc</th>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-calypso-crypto-asymmetric-java-api">Java Doc</a></td>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-calypso-crypto-asymmetric-cpp-api">C++ Doc</a></td>
-			<td><a href="https://calypso-crypto-asymmetric-uml.terminal-api.calypsonet.org/">UML Doc</a></td>
+			<td><a href="https://docs.terminal-api.calypsonet.org/calypsonet-terminal-calypso-crypto-asymmetric-uml-api/">UML Doc</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://terminal-api.calypsonet.org/specifications/calypso-layer/calypso-asymmetric-crypto-api/">Interface Guide</a></td>
@@ -132,10 +146,27 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 			<td><a href="https://github.com/eclipse-keypop/keypop-calypso-crypto-asymmetric-cpp-api">keypop-calypso-crypto-asymmetric-cpp-api</a></td>
 			<td><a href="https://github.com/calypsonet/calypsonet-terminal-calypso-crypto-asymmetric-uml-api">calypsonet-terminal-calypso-crypto-asymmetric-uml-api</a></td>
 		</tr>
+		<tr>
+			<td rowspan="3">Card Layer - Storage Card</td>
+			<td rowspan="3">Storage Card API</td>
+			<th scope="row" rowspan="2">API Doc</th>
+			<td rowspan="2"><a href="https://docs.keypop.org/keypop-storagecard-java-api/">Java Doc</a></td>
+			<td rowspan="2" class="hachured"></td>
+			<td><a href="https://docs.terminal-api.calypsonet.org/calypsonet-terminal-storagecard-uml-api/">UML Doc</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://terminal-api.calypsonet.org/specifications/card-layer-storagecard/storagecard-api/">Interface Guide</a></td>
+        </tr>
+		<tr>
+			<th scope="row">Repository</th>
+			<td><a href="https://github.com/eclipse-keypop/keypop-storagecard-java-api/">keypop-storagecard-java-api</a></td>
+			<td class="hachured"></td>
+			<td><a href="https://github.com/calypsonet/calypsonet-terminal-storagecard-uml-api/">calypsonet-terminal-storagecard-uml-api</a></td>
+		</tr>
 	</tbody>
 </table>
 
-# Keypop project support repositories
+## Keypop project support repositories
 
 <table>
 	<tbody>
@@ -153,13 +184,9 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 			<td><a href="https://github.com/eclipse-keypop/keypop-api-docs">keypop-api-docs</a></td>
 		</tr>
 		<tr>
-			<td rowspan="2">Continuous Integration</td>
+			<td rowspan="1">Continuous Integration</td>
 			<td>GitHub Actions</td>
 			<td><a href="https://github.com/eclipse-keypop/keypop-actions/">keypop-actions</a></td>
-		</tr>
-		<tr>
-			<td>Jenkins configuration</td>
-			<td><a href="https://github.com/eclipse-keypop/keypop-ops/">keypop-ops</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2">Repository configuration</td>
@@ -169,6 +196,23 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 		<tr>
 			<td>GitHub-specific</td>
 			<td><a href="https://github.com/eclipse-keypop/.github">.github</a></td>
+		</tr>
+	</tbody>
+</table>
+
+
+## Repositories of older, no-longer-maintained versions of Keypop
+
+<table>
+	<tbody>
+		<tr>
+			<th scope="col" colspan="2">$\text{\color{red}Deprecated}$ elements</th>
+			<th scope="col">$\text{\color{red}Archived}$ repository</th>
+		</tr>
+		<tr>
+			<td rowspan="1">Continuous integration</td>
+			<td>Jenkins configuration</td>
+			<td><a href="https://github.com/eclipse-keypop/keypop-ops/">keypop-ops</a></td>
 		</tr>
 	</tbody>
 </table>
