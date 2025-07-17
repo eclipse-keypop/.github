@@ -7,18 +7,6 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 
 ## Keypop component repositories for Java and C++ implementations
 
-<style>
-    .hachured {
-        background-image: repeating-linear-gradient(
-        45deg,
-        transparent,
-        transparent 5px,
-        rgba(0, 0, 0, 0.1) 5px,
-        rgba(0, 0, 0, 0.1) 10px
-        );
-        color: black;
-    }
-</style>
 <table>
 	<tbody>
 		<tr>
@@ -151,7 +139,7 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 			<td rowspan="3">Storage Card API</td>
 			<th scope="row" rowspan="2">API Doc</th>
 			<td rowspan="2"><a href="https://docs.keypop.org/keypop-storagecard-java-api/">Java Doc</a></td>
-			<td rowspan="2" class="hachured"></td>
+			<td rowspan="2" style="border: 1px dotted #7D7D7D;"></td>
 			<td><a href="https://docs.terminal-api.calypsonet.org/calypsonet-terminal-storagecard-uml-api/">UML Doc</a></td>
 		</tr>
 		<tr>
@@ -160,7 +148,7 @@ This is the GitHub organization containing all repositories of the [Eclipse Keyp
 		<tr>
 			<th scope="row">Repository</th>
 			<td><a href="https://github.com/eclipse-keypop/keypop-storagecard-java-api/">keypop-storagecard-java-api</a></td>
-			<td class="hachured"></td>
+			<td style="border: 1px dotted #7D7D7D;"></td>
 			<td><a href="https://github.com/calypsonet/calypsonet-terminal-storagecard-uml-api/">calypsonet-terminal-storagecard-uml-api</a></td>
 		</tr>
 	</tbody>
